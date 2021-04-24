@@ -3,17 +3,16 @@
 ## Steps to launch application
 
 ### Step 1
-Go into the Login Example directory and run *$: npm install* from the command line
+Go into the Login Example directory and run *$: npm install* from the command line.
 
 ### Step 2
-Initialize all of the appropriate values inside the .env file
+Initialize all of the appropriate values inside the .env file.
 
 ### Step 3
-Initialize a database in sql as per the settings you created in the config file found inside *Login Example\config*
-This means create a database such as db_dev, and adding that name to *Login Example\config*
+Initialize a database in sql as per the settings you created in the config file found inside *Login Example\config*. This means create a database such as db_dev, and adding that name to *Login Example\config*
 
 ### Step 4
-Go into the Login Example directory and run *$: npm run dev* from the command line
+Go into the Login Example directory and run *$: npm run dev* from the command line.
 
 ### Step 5
 Run the *setupDatabase.sql* script to initialize the permissions and users table.
