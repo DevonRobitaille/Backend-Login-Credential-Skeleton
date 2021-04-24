@@ -22,14 +22,20 @@ The password for Test is: Test_Pass
 
 ### Step 6
 Your application should now be ready to accept requests for login at: /auth <post request>
+  
   Format:
+  
   `{
     "username": <Email or Username>,
     "password": <password of the account>
   }`
+  
 Your application should now be ready to accept requests to logout at: /logout <get request>
+  
 Your application should now be ready to accept requests to create new users at: /create <post request>
+  
   Format:
+  
   `{
     "username": <username>,
     "password": <password>,
