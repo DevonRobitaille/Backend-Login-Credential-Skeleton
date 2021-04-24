@@ -26,8 +26,11 @@ Your application should now be ready to accept requests for login at: /auth <pos
   Format:
   
   `{
+  
     "username": <Email or Username>,
+    
     "password": <password of the account>
+    
   }`
   
 Your application should now be ready to accept requests to logout at: /logout <get request>
@@ -37,10 +40,17 @@ Your application should now be ready to accept requests to create new users at: 
   Format:
   
   `{
+  
     "username": <username>,
+    
     "password": <password>,
+    
     "first_name": <first name of the user>,
+    
     "last_name": <last name of the user>,
+    
     "email": <email of the user>,
+    
     "permission_id": <permission id of the user (optional, can be 1 for Admin, or 2 for user)>
+    
   }`
