@@ -27,9 +27,9 @@ Your application should now be ready to accept requests for login at: /auth <pos
   
   >`{
   >
-  >  "username": <Email or Username>,
+  >  "username": \<Email or Username\>,
   > 
-  >  "password": <password of the account>
+  >  "password": \<password of the account\>
   > 
   >}`
   
@@ -41,16 +41,16 @@ Your application should now be ready to accept requests to create new users at: 
   
   >`{
   >
-  >  "username": <username>,
+  >  "username": \<username>\,
   >  
-  >  "password": <password>,
+  >  "password": \<password\>,
   >  
-  >  "first_name": <first name of the user>,
+  >  "first_name": \<first name of the user\>,
   >  
-  >  "last_name": <last name of the user>,
+  >  "last_name": \<last name of the user\>,
   >  
-  >  "email": <email of the user>,
+  >  "email": \<email of the user\>,
   >  
-  >  "permission_id": <permission id of the user (optional, can be 1 for Admin, or 2 for user)>
+  >  "permission_id": \<permission id of the user (optional, can be 1 for Admin, or 2 for user)\>
   >  
   >}`
