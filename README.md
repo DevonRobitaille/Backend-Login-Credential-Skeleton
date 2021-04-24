@@ -16,8 +16,8 @@ Go into the Login Example directory and run *$: npm run dev* from the command li
 
 ### Step 5
 Run the *setupDatabase.sql* script to initialize the permissions and users table.
-The password for Admin is: Admin_Pass
-The password for Test is: Test_Pass
+>The password for Admin is: Admin_Pass
+>The password for Test is: Test_Pass
 
 ### Step 6
 Your application should now be ready to accept requests for login at: /auth <post request>
